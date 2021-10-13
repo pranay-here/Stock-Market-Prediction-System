@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>switchable jQuery Plugin Demos</title>
+<link href="lib/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="lib/style.css" />
+</head>
+
+<body>
+<div class="container" style="margin:150px auto; width:752px;">
+
+
+<br>
+<br>
+
+<div class="g_slide" id="slides1">
+	<div class="switch_main">
+		<a class="item switch_item" href="#"><img data-src="https://unsplash.it/752/450?image=238" /></a>
+		<a class="item switch_item" href="#"><img data-src="https://unsplash.it/752/450?image=133" /></a>
+		<a class="item switch_item" href="#"><img data-src="https://unsplash.it/752/450?image=330" /></a>
+		<a class="item switch_item" href="#"><img data-src="https://unsplash.it/752/450?image=426" /></a>
+	</div>
+</div>
+<br>
+<br>
+
+
+
+<script src="lib/jquery-1.10.2.min.js"></script>
+<script src="lib/switchable.js"></script> 
+<script>
+$(function(){
+	switchable({
+		$element: $('#slides')
+		,interval: 2000
+		,animateSpeed: 500
+		
+	});
+	switchable({
+		$element: $('#slides1')
+		,interval: 2000
+		,effect: 'fade'
+	});
+	switchable({
+		$element: $('#scroll_wrap')
+		,interval: 2000
+		,showNav: true
+		//,effect: 'fade'
+		,type: 'imgScroll'
+		,imgScroll: {
+			num: 2
+		}
+	});
+});
+</script>
+</div>
+
+</body>
+</html>

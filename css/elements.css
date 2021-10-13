@@ -1,0 +1,453 @@
+p {
+    line-height: 1.75em;
+}
+
+a {
+    
+}
+
+h5, .h5 {
+    font-size: 16px;
+}
+
+h6, .h6 {
+    font-size: 14px;
+}
+
+sup {
+    font-size: 60%;
+    top: -.5em;
+}
+
+.read-more-link {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 55px 0 0;
+    cursor: pointer;
+    float: right;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    -webkit-transition-delay: 0s !important;
+    transition-delay: 0s !important;
+}
+
+.read-more-link:hover, .read-more-link:focus {
+    text-decoration: none;
+}
+
+.read-more-link .fa {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, .5), 0px 0px 0px rgba(0, 0, 0, .5);
+    -webkit-transition-delay: 0s !important;
+    transition-delay: 0s !important;
+}
+
+.read-more-link:hover .fa,
+.read-more-link:focus .fa {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+    text-shadow: 15px 1px 0px rgba(0, 0, 0, 0), 1px -15px 0px rgba(0, 0, 0, 0);
+}
+
+.title {
+    margin: 0 0 20px;
+    padding: 0 0 26px;
+    position: relative;
+}
+
+.title:after {
+    background: #7b7499;
+    width: 38px;
+    height: 2px;
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.subpage-header .page-title:after {
+    background: #fff;
+}
+
+.centered-header, .centered-header-2 {
+    text-align: center;
+}
+
+.centered-header .title {
+    font-weight: 600;
+}
+
+.centered-header .title:after {
+    width: 100%;
+    height: 4px;
+    border-bottom: 2px solid #7b7499;
+    -webkit-transform: scaleX(.04);
+    transform: scaleX(.04);
+}
+
+.centered-header-2 .title {
+    padding: 0;
+    display: inline-block;
+}
+
+.centered-header-2 .title::before, 
+.centered-header-2 .title::after {
+    width: 38px;
+    height: 4px;
+    border-bottom: 2px solid #7b7499;
+    position: absolute;
+    left: -62px;
+    top: 15px;
+    content: " ";
+}
+
+.centered-header-2 .title:after {
+    left: auto;
+    right: -62px;
+}
+
+.breadcrumb {
+    background: none;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    margin: -60px 0 0;
+    position: relative;
+}
+
+.image-header .breadcrumb, 
+.image-header .breadcrumb a {
+    color: #fff;
+}
+
+.centered-header .breadcrumb, .centered-header-2 .breadcrumb {
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    margin: 15px 0 0;
+    padding: 0;
+}
+
+.centered-header-2 .breadcrumb {
+    margin: 0;
+}
+
+.blurb-heading {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: Raleway, sans-serif;
+}
+
+.section-title {
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+
+.homepage-scroll .section-title {
+    font-size: 48px;
+}
+
+.section-subtitle {
+    font-size: 18px;
+}
+
+.section-text {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-subtitle, .page-byline {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.page-subtitle {
+    font-size: 30px;
+    margin: 0 0 40px;
+}
+
+.section-alt-2 .page-subtitle {
+    color: #fff;
+}
+
+.page-byline {
+    font-size: 18px;
+    margin: 0 0 45px;
+}
+
+.progress-label, .progress-value {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+.progress-value {
+    float: right;
+}
+
+.progress {
+    height: 6px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.progress-bar {
+    background: #7b7499;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    transform: scaleX(0);
+    transform-origin: left center;
+}
+
+.sd-on.progress-bar {
+    transform: scaleX(1);
+}
+
+.panel-default {
+    border: 0;
+    border-bottom: 1px solid #dfdfdf;
+    box-shadow: none;
+}
+
+.accordion-style-2 .panel-default {
+    border-color: #cecece;
+}
+
+.panel-default > .panel-heading {
+    background: none;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 0;
+}
+
+.accordion-style-2 .panel-default > .panel-heading {
+    background: #e2e2e2;
+    padding: 15px 20px;
+}
+
+.panel-title a {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+}
+
+.panel-title a:hover, .panel-title a:focus {
+    text-decoration: none;
+}
+
+.panel-title .fa {
+    color: #ccc;
+    margin-right: 20px;
+    float: right;
+}
+
+.accordion-style-2 .fa {
+    color: #b0b0b0;
+    margin: 0;
+}
+
+.panel-title .fa-caret-down {
+    color: #5b92ff;
+    display: none;
+}
+
+.panel-title a[aria-expanded="true"] {
+    font-weight: 600;
+}
+
+.panel-title a[aria-expanded="true"] .fa-caret-right {
+    display: none;
+}
+
+.panel-title a[aria-expanded="true"] .fa-caret-down {
+    display: inline-block;
+}
+
+.panel-group .panel-heading + .panel-collapse > .list-group, 
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 0;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+    margin: 0;
+}
+
+.panel-body {
+    padding: 15px 20px 15px 0
+}
+
+.accordion-style-2 .panel-body {
+    padding: 15px 20px;
+}
+
+.tabs-style-2.nav-tabs, 
+.tabs-style-5.nav-tabs {
+    border: 0;
+}
+
+.tabs-style-3.nav-tabs,
+.tabs-style-4.nav-tabs {
+    margin: 0 30px 0 0;
+    border: 0;
+    float: left;
+}
+
+.tabs-style-2.nav-tabs > li {
+    border: 1px solid #dfdfdf;
+    border-right: 0;
+}
+
+.tabs-style-3.nav-tabs > li,
+.tabs-style-4.nav-tabs > li {
+    margin: 0;
+    float: none;
+}
+
+.tabs-style-5.nav-tabs > li {
+    margin: 0 20px 0 0;
+}
+
+.nav-tabs > li > a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 24px 45px 24px 0;
+    transition: border .2s;
+}
+
+.tabs-style-2.nav-tabs > li > a {
+    background: #fff;
+    color: #888;
+    border: 0;
+    border-top: 4px solid #fff;
+    padding: 20px 20px 24px;
+}
+
+.tabs-style-3.nav-tabs > li > a {
+    border-bottom: 0;
+    padding: 14px 45px 14px 0;
+}
+
+.tabs-style-5.nav-tabs > li > a {
+    background: #5b92ff;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #5b92ff;
+    padding: 10px 20px;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+    background: none;
+    border-color: #5b92ff; 
+}
+
+.tabs-style-2.nav-tabs > li > a:hover,
+.tabs-style-2.nav-tabs > li > a:focus {
+    background: #fff;
+}
+
+.tabs-style-3.nav-tabs > li > a:hover,
+.tabs-style-3.nav-tabs > li > a:focus {
+    border-right: 1px solid #5b92ff;
+    padding: 14px 44px 14px 0;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background: none;
+    color: #333;
+    font-weight: 600;
+    border: 0;
+    border-bottom: 2px solid #5b92ff;
+    padding: 24px 45px 23px 0;
+}
+
+.tabs-style-2.nav-tabs > li.active {
+    border-bottom: 0;
+}
+
+.tabs-style-2.nav-tabs > li.active > a, .tabs-style-2.nav-tabs > li.active > a:focus, .tabs-style-2.nav-tabs > li.active > a:hover {
+    background-color: #fff;
+    background-size: cover;
+    border: 0;
+    border-top: 4px solid #5b92ff;
+    padding: 20px 20px 26px;
+}
+
+.tabs-style-3.nav-tabs > li.active > a, .tabs-style-3.nav-tabs > li.active > a:focus, .tabs-style-3.nav-tabs > li.active > a:hover {
+    border-bottom: 0;
+    border-right: 3px solid #5b92ff;
+    padding: 14px 42px 14px 0;
+}
+
+.tabs-style-5.nav-tabs > li.active > a, .tabs-style-5.nav-tabs > li.active > a:focus, .tabs-style-5.nav-tabs > li.active > a:hover {
+    background: #fff;
+    color: #5b92ff;
+    border: 2px solid #5b92ff;
+    padding: 10px 20px;
+}
+
+.tabs-style-2.tab-content {
+    background: #fff;
+    text-align: left;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 28px 20px;
+}
+
+.tabs-style-3.tab-content,
+.tabs-style-4.tab-content {
+    width: 75%;
+    float: left;
+}
+
+
+.tab-pane {
+    padding: 24px 0;
+}
+
+
+/** Bootstrap tooltip **/
+a[data-toggle="tooltip"] {
+    border-bottom: 1px dashed #5b92ff;
+}
+
+a[data-toggle="tooltip"]:hover,
+a[data-toggle="tooltip"]:focus {
+    text-decoration: none;
+}
+
+.tooltip {
+}
+
+.tooltip .tooltip-inner {
+    background: #7b7499;
+    padding: 10px;
+    transform: scaleX(0);
+    -webkit-transition: transform .3s;
+    transition: transform .3s;
+}
+
+.tooltip.in .tooltip-inner {
+    transform: scaleX(1);
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #7b7499;
+}
+
+.mobile-only {
+    display: none;
+}

@@ -1,0 +1,510 @@
+.utility-and-social-wrapper {
+    display: none;
+}
+
+.utility-wrapper {
+    padding: 4px 0;
+    display: block;
+}
+
+.logo {
+    background-color: #08960a;
+    margin: 6px 40px;
+}
+
+.login-form {
+    float: right;
+}
+
+.utility-wrapper input[type="text"], 
+.utility-wrapper input[type="password"] {
+    width: 194px;
+    margin: 0 6px;
+    border-radius: 4px;
+    border: 0;
+    padding: 5px 10px;
+    position: relative;
+    top: 2px;
+}
+
+.btn-default {
+    background: #5400b2;
+    color: #fff;
+    padding: 5px 14px;
+}
+
+.btn-default:hover, .btn-default:focus {
+    background: #480099;
+    color: #fff;
+}
+
+.btn-primary {
+    background: #e5ba17;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: #cca414;
+}
+
+.login-form .btn {
+    margin: 0 6px;
+}
+
+.login-form .btn-primary {
+    padding: 7px 21px;
+}
+
+
+/** Main Navigation **/
+.main-nav {
+    background: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.main-nav .finance-nav-list {
+    float: right;
+}
+
+.main-nav .nav-item > a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    padding: 20px 23px;
+}
+
+.main-nav ul > .nav-item:hover > a, 
+.main-nav ul > .nav-item.selected > a {
+    background: none;
+    color: #08960a;
+}
+
+
+/** homepage **/
+.homepage-section {
+    padding: 60px 0;
+}
+
+.hero-image-wrap {
+    background: #ececec;
+    width: 100%;
+    padding: 73px 0 0;
+}
+
+.hero-image {
+    background: url(../img/finance-hero.jpg) no-repeat;
+    width: 100%;
+    height: 364px;
+    margin: 0;
+    padding: 50px;
+    display: table;
+}
+
+.hero-caption {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .65);
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.sd-icon-blurb .blurb-copy {
+    width: 100%;
+    margin: 0;
+    float: none;
+}
+
+.sd-icon-blurb .blurb-heading {
+    font-weight: 400;
+    text-transform: none;
+    margin: 0 0 14px;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 0 0 9px;
+}
+
+.blurb-heading .fa {
+    color: #bdbdbd;
+    font-size: 24px;
+    margin: 0 12px 0 0;
+    position: relative;
+    top: 2px;
+}
+
+.sd-icon-blurb p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.page-finance .read-more-link {
+    color: #5400b2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+}
+
+.callout-1 {
+    /*background: #9fc5b3; 
+    background: -moz-linear-gradient(top,  #9fc5b3 0%, #467258 100%); 
+    background: -webkit-linear-gradient(top,  #9fc5b3 0%,#467258 100%); 
+    background: linear-gradient(to bottom,  #9fc5b3 0%,#467258 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fc5b3', endColorstr='#467258',GradientType=0 ); */
+    background: url(../img/finance-callout-bg.jpg) no-repeat left top;
+    height: 306px;
+}
+
+.callout {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    padding: 40px 0;
+}
+
+.callout .heading {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 48px;
+}
+
+.callout p {
+    font-size: 16px;
+    text-align: left;
+    text-shadow: none;
+    line-height: 1.425em;
+    margin: 34px 0;
+}
+
+.stocks-wrapper {
+    background: #ececec;
+    margin: 45px 0;
+}
+
+.stocks {
+}
+
+.stock-item {
+    width: 24%;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 18px 10px;
+    display: inline-block;
+}
+
+.stock-item .market {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.stock-item .last-price {
+    font-size: 18px;
+}
+
+.stock-item .price-change {
+    color: #cc3e3e;
+    font-size: 12px;
+}
+
+.price-change .fa {
+    margin: 0 6px 0 0;
+}
+
+.price-change .fa-caret-up {
+    display: none;
+}
+
+.stock-item .price-change.up {
+    color: #2d5b40
+}
+
+.price-change.up .fa-caret-down {
+    display: none;
+}
+
+.price-change.up .fa-caret-up {
+    display: inline-block;
+}
+
+.info {
+    background: url(../img/animation-sm.gif) no-repeat left center;
+}
+
+.info.loaded {
+    background: none;
+}
+
+.info p {
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.info.loaded p {
+    opacity: 1;
+}
+
+.marketing-grid {
+}
+
+.grid-tile {
+    background: #afd5ba;
+    width: 33%;
+    height: 207px;
+    text-align: center;
+    border-right: 1px solid #7ab98c;
+    border-bottom: 1px solid #7ab98c;
+    padding: 15px;
+    float: left;
+    display: table;
+}
+
+.grid-tile:nth-child(3n) {
+    border-right: 0;
+}
+
+.grid-tile:nth-child(n + 7) {
+    border-bottom: 0;
+}
+
+.grid-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.grid-title {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+}
+
+.grid-copy {
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+}
+
+.marketing-grid .btn-lg {
+    margin: 70px 0 0;
+    padding: 22px 30px;
+}
+
+#contact {
+    background: #e0d1f1;
+    margin: 20px 0 0;
+    padding: 40px 0;
+}
+
+#contact .fa {
+    color: #0d7f2f;
+    font-size: 24px;
+    margin: 0 6px 0 0;
+}
+
+footer {
+    background: #fff;
+    color: #333;
+    border-top: 1px solid #cecece;
+}
+
+footer .about-links a {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer-bottom {
+    background: none;
+    color: #333;
+}
+
+.footer-bottom a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer .social-links a {
+    background: #cfcfcf;
+    font-size: 18px;
+    border-radius: 0;
+    border-bottom: 4px solid;
+    padding: 3px 0;
+}
+
+footer .social-links a:hover, footer .social-links a:focus {
+    background: #dedede;
+    border-bottom: 4px solid;
+}
+
+footer .social-links .fa {
+    width: 40px;
+}
+
+footer .social-links .facebook, footer .social-links .facebook:hover, footer .social-links .facebook:focus {
+    color: #3b5998;
+    border-color: #3b5998;
+}
+
+footer .social-links .twitter, footer .social-links .twitter:hover, footer .social-links .twitter:focus {
+    color: #1dcaff;
+    border-color: #1dcaff;
+}
+
+footer .social-links .googleplus, footer .social-links .googleplus:hover, footer .social-links .googleplus:focus {
+    color: #d34836;
+    border-color: #d34836;
+}
+
+footer .social-links .linkedin, footer .social-links .linkedin:hover, footer .social-links .linkedin:focus {
+    color: #007bb6;
+    border-color: #007bb6;
+}
+
+footer .social-links .youtube, footer .social-links .youtube:hover, footer .social-links .youtube:focus {
+    color: #bb0000;
+    border-color: #bb0000;
+}
+
+/** PP **/
+.pp-item .grid-content {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.pp-item .grid-content {
+    opacity: 0;
+}
+
+.pp-item.pp-on .grid-content {
+    opacity: 1;
+}
+
+
+/** subpages **/
+.post-image {
+    border: 1px solid #dfdfdf;
+}
+
+header .post-image {
+    background: url(../img/finance-subpage-2.jpg) no-repeat;
+    padding: 70px 45px;
+}
+
+.page-finance section {
+    padding: 60px 0;
+}
+
+.page-finance section .sd-icon {
+    color: #bf7813;
+}
+
+.page-finance .sd-icon-boxes p {
+    text-align: left;
+}
+
+.content-quote {
+    background: rgba(84, 0, 178, .1);
+}
+
+.sidebar-callout {
+    background-color: rgba(13, 127, 47, .33);
+}
+
+.list .fa {
+    color: #5400b2;
+}
+
+.finance-services {
+    padding: 0 0 60px;
+}
+
+
+/** FAQ **/
+.faq-list li {
+    margin: 0 0 7px;
+}
+
+.faq-list a {
+    background: #f1f1f1;
+    color: #333;
+    font-weight: 600;
+    padding: 14px 20px;
+    display: block;
+}
+
+.faq-list a:hover, .faq-list a:focus {
+    text-decoration: none;
+}
+
+.faq-answer {
+    margin: -55px 0 0;
+    padding: 55px 0 0;
+}
+
+.btt-link {
+    color: #0d7f2f;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/** Retirement **/
+.finance-retirement {
+    background: url(../img/finance-retirement.jpg) no-repeat;
+}
+
+.finance-highlight {
+    background: rgba(13, 127, 47, .33);
+    padding: 26px 22px;
+}
+
+.highlight-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 22px;
+}
+
+.page-finance .panel-content ul {
+    list-style: disc;
+    padding: 0 0 0 18px;
+}
+
+
+/* element overrides */
+.heading {
+    font-size: 24px;
+}
+
+.tabs-style-5.nav-tabs > li > a, .tabs-style-5.nav-tabs > li > a:hover, .tabs-style-5.nav-tabs > li > a:focus {
+    background: #0d7f2f;
+    border-color: #0d7f2f;
+}
+
+.tabs-style-5.nav-tabs > li.active > a, .tabs-style-5.nav-tabs > li.active > a:focus, .tabs-style-5.nav-tabs > li.active > a:hover {
+    color: #0d7f2f;
+    border-color: #0d7f2f;
+}
+
+.tab-content {
+    margin: 10px 0 0;
+}
+
+.tab-pane .sd-icon {
+    float: left;
+}
+
+.tab-pane .panel-content {
+    width: 80%;
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+.panel-content .read-more-link {
+    margin: 20px 0 15px;
+    display: block;
+}

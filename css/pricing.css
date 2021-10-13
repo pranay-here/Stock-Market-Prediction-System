@@ -1,0 +1,293 @@
+main.pricing {
+    background: url(../img/pricing-bg.jpg) no-repeat;
+}
+
+.pricing-row {
+    margin: 0 0 180px;
+}
+
+.pricing-table {
+    background: #fff;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+}
+
+.style-2 .pricing-table {
+    margin: 24px 0 0;
+    border-right-width: 0;
+}
+
+.style-2 .pricing-table.last {
+    border-right-width: 1px;
+}
+
+.pricing-table.highlighted {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .6);
+    border-color: #004d75;
+}
+
+.style-2 .highlighted {
+    box-shadow: none;
+    margin: 0;
+    border-color: #dfdfdf;
+}
+
+.table-head {
+    background: #d3d3d3;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 0;
+}
+
+.style-2 .table-head {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 26px 0;
+}
+
+.style-3 .table-head {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.style-3 .table-head p {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.style-3 .table-head.second-three {
+    background: rgba(116, 123, 153, .5);
+}
+
+.style-3 .table-head.third-three {
+    background: rgba(116, 123, 153, 1);
+}
+
+.highlighted .table-head {
+    background: #5b92ff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #5b92ff 0%, #37589a 100%); 
+    background: -webkit-linear-gradient(top,  #5b92ff 0%,#37589a 100%); 
+    background: linear-gradient(to bottom,  #5b92ff 0%,#37589a 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b92ff', endColorstr='#37589a',GradientType=0 );
+    padding: 13px 0;
+}
+
+.style-2 .highlighted .table-head {
+    background: #5b92ff;
+    filter: none;
+    padding: 38px 0;
+}
+
+.price-class {
+    font-size: 18px;
+    display: block;
+}
+
+.style-3 .price-class {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.price-value {
+    font-size: 36px;
+    display: block;
+}
+
+.style-2 .price-value {
+    font-weight: 600;
+    margin: 0 0 34px;
+}
+
+.style-3 .price-value {
+    margin: 15px 0;
+}
+
+.price-value .superscript {
+    font-size: 18px;
+    position: relative;
+    top: -13px;
+}
+
+.price-summary {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 16px 0 34px;
+}
+
+.price-options {
+    text-align: center;
+}
+
+.price-options li {
+    padding: 20px 0;
+}
+
+.style-2 .price-options li {
+    padding: 4px 0;
+}
+
+.price-options li:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.style-2 .price-options li:nth-child(even) {
+    background: none;
+}
+
+.pricing-table .btn {
+    margin: 40px auto;
+}
+
+.pricing-table.enterprise .btn {
+    margin: 91px auto 40px;
+}
+
+.pricing-table.highlighted .btn-primary {
+    background: #5b92ff;
+    color: #fff;
+}
+
+.pricing-table.metal-table {
+    margin: 0 10px;
+    border-color: #dfdfdf;
+}
+
+.pricing-table.metal-table.highlighted {
+    border: 1px solid #004d75;
+}
+
+.basic .table-head {
+    background: #fff;
+    color: #888;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.metal-table li:nth-child(even) {
+    background: #fff;
+}
+
+.bronze .table-head, .table-head .bronze {
+    background: #bfa17d;
+    color: #fff;
+}
+
+.silver .table-head, .table-head .silver {
+    background: #e1e1e1;
+    background: -moz-linear-gradient(top,  #e1e1e1 0%, #a8a8a8 100%);
+    background: -webkit-linear-gradient(top,  #e1e1e1 0%,#a8a8a8 100%);
+    background: linear-gradient(to bottom,  #e1e1e1 0%,#a8a8a8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e1e1', endColorstr='#a8a8a8',GradientType=0 );
+    color: #fff;
+}
+
+.gold .table-head, .table-head .gold {
+    color: #fff;
+    background: #ded885;
+    border-color: #dfdfdf;
+}
+
+.grid-table {
+    width: 100%;
+    margin: 0;
+}
+
+.grid-table .table-head {
+    background: #fff;
+    color: #888;
+}
+
+.grid-table th {
+    width: 20%;
+    text-align: center;
+}
+
+.grid-table .price-class {
+    display: table-cell;
+    padding: 24px;
+}
+
+.grid-table td, .grid-table th {
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 10px;
+}
+
+.grid-table td .fa {
+    color: #5b92ff;
+    font-size: 30px;
+}
+
+.grid-table .footer-label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.grid-table .price {
+    color: #888;
+    font-size: 36px;
+    font-weight: 600;
+    display: block;
+}
+
+.grid-table .btn {
+    width: 80%;
+    font-size: 13px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.grid-table.alt .table-head {
+    background: #fff;
+}
+
+.grid-table.alt th {
+    color: #888;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px;
+}
+
+.grid-table.alt .price-class {
+    background: #d3d3d3;
+    color: #fff;
+}
+
+.grid-table.alt th:nth-child(4) {
+    position: relative;
+}
+
+.grid-table.alt th:nth-child(4)::after {
+    background: #5b92ff;
+    width: 100%;
+    content: "Best Value";
+    color: #333;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    display: block;
+}
+
+.grid-table.alt th:nth-child(4), 
+.grid-table.alt td:nth-child(4) {
+    border-left: 5px solid #5b92ff;
+    border-right: 5px solid #5b92ff;
+}
+
+.grid-table.alt tr:last-child td:nth-child(4) {
+    border-bottom: 5px solid #5b92ff;
+}
+
+.grid-table.alt td .fa {
+    color: #00d405;
+}
+
+.pricing-table strong {
+    color: #7b7499;
+}

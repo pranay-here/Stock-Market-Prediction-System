@@ -1,0 +1,55 @@
+.form-cta {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 0 40px;
+}
+
+.form-input {
+    width: 100%;
+    margin: 0 0 20px;
+    border: 1px solid #dfdfdf;
+    padding: 6px 10px;
+    display: block;
+}
+
+.form-textarea {
+    height: 142px;
+}
+
+.form-input, .form-textarea {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .10) inset;
+}
+
+.contact-form {
+    margin: 0 0 60px;
+}
+
+.google-map {
+    width: 100%;
+    height: 400px;
+    margin: 0 0 30px;
+    border: 1px solid #7c7c7c;
+}
+
+.style-2 .google-map {
+    height: 575px;
+}
+
+.style-3 .google-map {
+    margin: 36px 0 -5px;
+}
+
+.style-2 .contact-info {
+    margin: 240px 0 0;
+    position: relative;
+}
+
+.style-2 .contact-info:before {
+    background: #7b7499;
+    width: 38px;
+    height: 2px;
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: -85px;
+}

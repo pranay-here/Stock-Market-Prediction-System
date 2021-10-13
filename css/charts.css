@@ -1,0 +1,40 @@
+
+
+.chart-label {
+    text-align: center;
+}
+
+.chart-wrap {
+    width: 153px;
+    height: 153px;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+}
+
+.donut-chart {
+    color: #7b7499;
+    width: 153px; 
+    height: 153px;
+    position: absolute;
+}
+
+.chart-bg {
+    background: rgba(255, 255, 255, .5);
+    width: 141px;
+    height: 141px;
+    border-radius: 50%;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.chart-wrap .value {
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}

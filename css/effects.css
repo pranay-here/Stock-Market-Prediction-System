@@ -1,0 +1,123 @@
+.sd-effects-viewport {
+    overflow: hidden;
+}
+
+.sd-fade-up, .sd-fade-down, .sd-fade-left, .sd-fade-right, .sd-fade-in {
+    opacity: 0;
+    -webkit-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+.sd-fade-up {
+    transform: translateY(25%);
+}
+
+.sd-fade-down {
+    transform: translateY(-25%);
+}
+
+.sd-fade-left {
+    transform: translateX(25%);
+}
+
+.sd-fade-right {
+    transform: translateX(-25%);
+}
+
+.sd-on, .selected .sd-effect {
+    opacity: 1;
+    -webkit-transform: translate(0, 0); 
+    transform: translate(0, 0);
+}
+
+.sd-border.sd-fade-in:after {
+    width: 0%;
+    -webkit-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+.sd-on.sd-border.sd-fade-in:after {
+    width: 100%;
+}
+
+
+/** hover effects **/
+.sd-hover-grow {
+    -webkit-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+.sd-hover-grow:hover,
+.sd-hover-grow:focus {
+    width: 110%;
+    margin: 0 -5%;
+}
+
+.sd-hover-flip .sd-hover {
+    position: relative;
+    -webkit-transition: all ease-out .3s;
+    transition: all ease-out .3s;    
+}
+
+.sd-hover-flip:hover .sd-hover,
+.sd-hover-flip:focus .sd-hover {
+    transform: rotateY(180deg);
+}
+
+.sd-hover-back-wrap {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease-out 0s;
+    transition: all ease-out 0s;
+    -webkit-transition-delay: 0s;
+    transition-delay: .15s;
+}
+
+.sd-hover-flip:hover .sd-hover-back-wrap,
+.sd-hover-flip:focus .sd-hover-back-wrap {
+    opacity: 1;
+    -webkit-transition-delay: .15s;
+    transition-delay: .15s;
+}
+
+.sd-hover-back {
+    background: rgba(255, 255, 255, .75);
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transform: scaleX(0);
+    -webkit-transition: all ease-out .3s;
+    transition: all ease-out .3s;
+    display: table;
+}
+
+.sd-hover-flip:hover .sd-hover-back,
+.sd-hover-flip:focus .sd-hover-back {
+    transform: scaleX(1);
+}
+
+.sd-hover-text {
+    color: #333;
+    font-weight: 600;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/** progressive parallax **/
+.pp-window {
+    position: relative;
+}
+
+.pp-content {
+    position: absolute;
+}
+
+
+/** scrollmagic **/
+.sd-scroll {
+    overflow: hidden;
+}

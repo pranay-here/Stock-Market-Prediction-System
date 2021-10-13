@@ -1,0 +1,640 @@
+/** Bootstrap overrides **/
+@media (min-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+    
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    
+    .navbar-toggle {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse.collapse {
+        display: block !important;
+    }
+    .navbar-header {
+        float: left;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+}
+/** end Bootstrap overrides **/
+
+
+
+@media screen and (max-width: 991px) {
+    /** navigation **/
+    .nav-bars {
+        height: 61px;
+    }
+    
+    .utility-and-social-wrapper {
+        display: none;
+    }
+    
+    .nav-bars .social-links {
+        margin-right: 0;
+    }
+    
+    .nav-and-search {
+        background: #fff;
+        box-shadow: -1px 5px 6px -1px rgba(0, 0, 0, .25);
+    }
+    
+    .navbar-search-form {
+        width: 100%;
+        padding: 0 14px;
+        box-sizing: border-box;
+        right: 0;
+        float: none;
+    }
+    
+    .navbar-search-form #input-search {
+        width: 100%;
+    }
+    
+    .navbar-search-form input[type="submit"] {
+        position: static;
+    }
+    
+    .navbar-search-form .fa, .affix.light .navbar-search-form .fa {
+        right: 22px;
+    }
+    
+    .logo {
+        background-size: contain;
+        width: 102px;
+        height: 30px;
+        margin: 15px 15px 0;
+    }
+    
+    .logo.light {
+        background-image: url(../img/logo.png);
+    }
+    
+    .navbar-toggle {
+        margin: 15px 15px 12px;
+    }
+    
+    .nav-and-search {
+    }
+    
+    .main-nav {
+        background: #fff;
+        position: fixed;
+    }
+    
+    .main-nav.affix {
+    }
+    
+    .nav-and-search .nav-list {
+        float: none;
+        box-shadow: 6px 1px 6px -4px rgba(0, 0, 0, .25);
+    }
+    
+    .main-nav .nav-item {
+        background: #fff;
+        float: none;
+    }
+    
+    .main-nav .nav-item > a {
+        padding: 22px 14px 20px;
+    }
+    
+    .main-nav.light .nav-item > a {
+        color: #333;
+    }
+    
+    .navbar-collapse {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    
+    .navbar-collapse.in {
+        width: 200px;
+        overflow: inherit;
+    }
+    
+    .dropdown-menu-wrapper {
+        top: 0;
+        transform: translateX(-100%);
+        z-index: 3;
+    }
+    
+    
+    /** homepages **/    
+    .sd-slider {
+        top: -61px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    
+    .sd-slider .slider-controls {
+        position: relative;
+    }
+    
+    .sd-slider .slide {
+        padding: 30px 0 0;
+    }
+    
+    .slide .container {
+        padding: 48px 20px;
+    }
+    
+    .slide h2, .sd-video-wrap h2, .style-3 .slide h2 {
+        font-size: 40px;
+        margin: 0 0 20px;
+    }
+    
+    .slide p, .style-3 .slide p {
+        font-size: 24px;
+    }
+    
+    .hero h2 {
+        font-size: 30px;
+        left: 0;
+    }
+    
+    section {
+        padding: 60px 0 20px;
+    }
+    
+    .read-more-link {
+        float: none;
+    }
+    
+    .homepage-blurbs .read-more-link {
+        margin: 20px 0 55px;
+        display: block;
+    }
+    
+    .section-text {
+        font-size: 14px;
+        font-weight: 400;
+        text-shadow: 0px 0px 3px rgba(255, 255, 255, 1), 0px 0px 5px rgba(255, 255, 255, 1), 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff, 0 0 40px #fff;
+    }
+    
+    .blurb-image-wrap:after {
+        content: none;
+    }
+    
+    .page-homepage-2 .homepage-blurbs p {
+        margin: 0 0 40px;
+    }
+    
+    .blurb-image-wrap + p {
+        margin: 0 0 40px;
+    }
+    
+    .blurb-image {
+        margin: 0 auto 25px;
+    }
+    
+    .client-wrap img {
+        width: 85%;
+    }
+    
+    .homepage-subscribe-submit {
+        width: 34%;
+    }
+    
+    .homepage-scroll .section-title {
+        font-size: 24px;
+        margin: 0 0 25px;
+    }
+    
+    .homepage-scroll .list .text {
+        width: 100%;
+        font-size: 14px;
+        float: none;
+    }
+    
+    .homepage-scroll .step-image, 
+    .homepage-scroll .step-image .sd-hover-back {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .homepage-scroll .step-image img,
+    .homepage-scroll .step-image .sd-hover-back {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .homepage-scroll .step-image .sd-hover-text {
+        font-weight: 400;
+        line-height: 1.25em;
+    }
+    
+    .homepage-scroll .step-text, .homepage-scroll .sd-hover-text {
+        font-size: 13px;
+    }
+    
+    .homepage-scroll .scroll-image {
+        width: 100%;
+    }
+    
+    .sd-timeline .slide {
+        height: auto !important;
+    }
+    
+    .sd-timeline .slide-inner {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .sd-timeline .slide-image {
+        height: 250px;
+        position: static;
+    }
+    
+    .slide .year {
+        font-size: 48px;
+        left: 55%;
+    }
+    
+    .sd-timeline .slide-text {
+        position: absolute;
+        top: 60%;
+    }
+    
+    section.summaries {
+        background-size: cover;
+    }
+    
+    .gallery-button {
+        margin: 0;
+        transform: scale(.5) rotate(45deg);
+    }
+    
+    .homepage-scroll .section-text {
+        text-shadow: none;
+    }
+    
+    .homepage-scroll .section-alt-2 .section-text {
+        text-shadow: 0px 0px 1px #7b7499, 0px 0px 5px #7b7499, 0px 0px 10px #7b7499, 0px 0px 15px #7b7499, 0px 0px 20px #7b7499, 0px 0px 25px #7b7499, 0px 0px 30px #7b7499;
+    }
+    
+    .homepage-landing h1 {
+        font-size: 24px;
+    }
+
+    .homepage-images, 
+    .homepage-images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .homepage-images img:first-child {
+        position: static;
+    }
+    
+    /* Finance homepage */
+    .page-finance .utility-wrapper {
+        display: none;
+    }
+    
+    .page-finance .hero-image-wrap {
+        padding: 20px 0 0;
+    }
+    
+    .page-finance .hero-image {
+        background-size: cover;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .page-finance .hero-caption {
+        font-size: 24px;
+    }
+    
+    .page-finance .blurb-copy .read-more-link {
+        margin: 0 0 40px;
+        display: block;
+    }
+    
+    .page-finance .callout .heading {
+        margin: 0 0 15px;
+    }
+    
+    .page-finance .callout p {
+        margin: 0 0 20px;
+    }
+    
+    .page-finance .stock-item {
+        width: 100%;
+    }
+    
+    .stock-item .last-price, .stock-item .price-change {
+        display: inline-block;
+    }
+    
+    .page-finance .last-price {
+        margin: 0 20px 0 0;
+    }
+    
+    .page-finance .pp-item .grid-content {
+        opacity: 1;
+    }
+    
+    .page-finance .grid-tile,
+    .page-finance .grid-tile:nth-child(n + 7){
+        width: 100%;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid #7ab98c;
+        float: none;
+    }
+    
+    .page-finance .grid-center-tile .btn {
+        margin: 0;
+    }
+    
+    
+    
+    /** subpages **/
+    .body header {
+        padding: 61px 0 0;
+    }
+    
+    .body .image-header {
+        padding: 88px 0 0;
+    }
+    
+    .breadcrumb {
+        margin: 0;
+    }
+    
+    .row-content {
+        padding: 40px 20px;
+    }
+    
+    .row-content .three-col {
+        column-count: 1;
+    }
+    
+    .page-about-me.style-3 .intro-img {
+        height: auto;
+    }
+    
+    .centered-header-2 .title::before, .centered-header-2 .title::after {
+        width: 20px;
+        left: -2px;
+    }
+    
+    .centered-header-2 .title::after {
+        left: auto;
+        right: -2px;
+    }
+    
+    .section-title {
+        font-size: 24px;
+    }
+    
+    
+    
+    /** About **/
+    .team-links {
+        position: static;
+    }
+    
+    
+    
+    /** blog **/
+    .sidebar {
+        margin: 80px 0 0;
+    }
+    
+    .offscreen {
+        position: fixed;
+        top: 250px;
+    }
+    
+    .offscreen:hover, .offscreen:focus {
+        position: absolute;
+    }
+    
+    .offscreen .sidebar {
+        margin: 0;
+    }
+    
+    .offscreen .toggler, .offscreen .sidebar {
+        box-shadow: -5px 1px 5px -1px rgba(0, 0, 0, .25);
+    }
+    
+    .blog-item {
+        margin: 0 0 40px;
+    }
+    
+    .blog-item .read-more-link {
+        margin: 0;
+    }
+    
+    .blog-hover {
+        opacity: 1;
+    }
+    
+    .style-3 .blog-hover {
+        background: rgba(255, 255, 255, .85);
+    }
+    
+    .style-3 .blog-info-wrap {
+        width: 100%;
+    }
+    
+    .style-3 .blog-info {
+        display: block;
+    }
+    
+    .style-3 .blog-title {
+        font-size: 18px;
+    }
+    
+    .style-3 .blog-date {
+        font-size: 15px;
+    }
+    
+    .style-3 .blog-summary {
+        height: 70px;
+        overflow: hidden;
+    }
+    
+    .paginator a {
+        margin: 0 3px 0 0;
+    }
+    
+    
+    
+    /* Finance subpages */
+    .page-finance .heading {
+        margin: 0 0 10px;
+    }
+    
+    section.finance-retirement {
+        padding: 20px 0 0;
+    }
+    
+    .page-finance header .post-image {
+        margin: 0;
+        padding: 0 15px;
+    }
+    
+    .page-finance .page-title {
+        font-size: 24px;
+    }
+    
+    .page-finance .tabs-style-5.nav-tabs > li {
+        width: 33%;
+        margin: 0;
+    }
+    
+    .page-finance .tabs-style-5.nav-tabs > li > a, 
+    .page-finance .tabs-style-5.nav-tabs > li > a:hover, 
+    .page-finance .tabs-style-5.nav-tabs > li > a:focus {
+        font-size: 12px;
+    }
+    
+    .finance-retirement .sd-icon-lg {
+        display: none;
+    }
+    
+    .finance-retirement .tab-pane {
+        padding: 0;
+    }
+    
+    .finance-highlight {
+        margin: 15px 0 0;
+    }
+    
+    .finance-retirement .tab-pane .panel-content {
+        width: 100%;
+        margin: 0 0 0 10px;
+        padding: 0 0 10px;
+        float: none;
+    }
+    
+    .page-finance .sidebar {
+        display: none;
+    }
+    
+    
+    
+    /** elements and effects **/
+    .btn-lg {
+        max-width: 100%;
+        margin: 0;
+        padding: 14px 80px;
+    }
+    
+    .tabs-style-3.nav-tabs, .tabs-style-4.nav-tabs {
+        margin: 0 20px 0 0;
+    }
+    
+    .tabs-style-5.nav-tabs > li {
+        margin: 0;
+    }
+    
+    .nav-tabs > li > a, .nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
+        padding: 24px 20px 24px 0;
+    }
+    
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+        padding: 24px 25px 23px 0;
+    }
+    
+    .tabs-style-2.nav-tabs > li > a {
+        padding: 16px 10px 20px;
+    }
+    
+    .tabs-style-2.nav-tabs > li.active > a, .tabs-style-2.nav-tabs > li.active > a:focus, .tabs-style-2.nav-tabs > li.active > a:hover {
+        padding: 16px 10px 22px;
+    }
+    
+    .tabs-style-5.nav-tabs > li > a, .tabs-style-5.nav-tabs > li > a:focus, .tabs-style-5.nav-tabs > li > a:hover, 
+    .tabs-style-5.nav-tabs > li.active > a, .tabs-style-5.nav-tabs > li.active > a:focus, .tabs-style-5.nav-tabs > li.active > a:hover {
+        font-size: 12px;
+        padding: 8px;
+    }
+    
+    .tabs-style-3.tab-content, .tabs-style-4.tab-content {
+        width: 55%;
+    }
+    
+    .tabs-style-2 .tab-pane, .tabs-style-3 .tab-pane, .tabs-style-4 .tab-pane {
+        padding: 0;
+    }
+    
+    .sd-icon {
+        margin: 0;
+    }
+    
+    .sd-icon-text {
+        width: 100%;
+        float: none;
+    }
+    
+    .sd-icon-title {
+        margin: 0 0 22px 55px;
+        position: relative;
+        top: 7px;
+    }
+    
+    .sd-icon-center .sd-icon-title {
+        margin: 0 0 22px;
+    }
+    
+    .social-icons .link-text {
+        margin: 0 0 40px;
+    }
+    
+    .mobile-only {
+        display: inherit;
+    }
+    
+    .ttr {
+        text-align: center;
+        display: block;
+    }
+    
+    .sd-counter {
+        margin: 0 0 20px;
+    }
+    
+    .counter span {
+        display: inline;
+    }
+    
+    .sd-fade-up, .sd-fade-down, .sd-fade-left, .sd-fade-right, .sd-fade-in {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .client-logos {
+        margin: 15px 0;
+    }
+    
+    .client-logos:after {
+        clear: both;
+        display: block;
+        content: ' ';
+    }
+    
+    .client-wrap {
+        width: 15.8%;
+        float: left;
+    }
+}

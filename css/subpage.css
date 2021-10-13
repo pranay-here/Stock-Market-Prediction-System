@@ -1,0 +1,164 @@
+.post-content img.pull-left {
+    margin: 0 22px 22px 0;
+}
+
+.post-content img.pull-right {
+    margin: 0 0 22px 22px;
+}
+
+.content-quote {
+    width: 272px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 16px;
+    display: inline-block;
+}
+
+.sidebar {
+    
+}
+
+.sidebar-nav {
+    
+}
+
+.sidebar-nav-item {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.sidebar-nav-link {
+    background: #f2f2f2;
+    color: #333;
+    padding: 18px 25px;
+    display: block;
+}
+
+.sidebar-nav-link:hover, .sidebar-nav-link:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav-item.selected .sidebar-nav-link {
+    font-weight: 600;
+    border-left: 3px solid #0d7f2f;
+    padding: 18px 25px 18px 22px;
+}
+
+.sidebar-nav-item:hover .sidebar-nav-link {
+    border-left: 3px solid #0d7f2f;
+    padding: 18px 25px 18px 22px;
+}
+
+.widget-style-2 {
+    border: 1px solid #dfdfdf;
+}
+
+.widget-style-2 .sidebar-title {
+    margin: 0;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 18px;
+}
+
+.widget-style-2 .widget-body {
+    padding: 18px;
+}
+
+.widget-style-2 li {
+    margin: 0 0 22px;
+}
+
+.widget-style-2 li .fa {
+    color: #0d7f2f;
+    font-size: 24px;
+    margin: 0 13px 0 0;
+    position: relative;
+    top: 4px;
+}
+
+.sidebar-callout {
+    background: url(../img/sidebar-callout-sm.png) no-repeat center;
+    height: 218px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    display: table;
+}
+
+.sidebar-callout p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.list {
+    
+}
+
+.list li {
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+
+.list .fa {
+    margin: 0 10px 0 0;
+}
+
+.about-social-links {
+    font-family: Roboto, sans-serif;
+}
+
+.about-social-links li {
+    margin: 0 0 40px;
+}
+
+.about-social-links a {
+    color: #333;
+}
+
+.about-social-links a:hover,
+.about-social-links a:focus {
+    text-decoration: none;
+}
+
+.about-social-links a:hover .link-text, 
+.about-social-links a:focus .link-text {
+    text-decoration: underline;
+}
+
+.about-social-links .fa {
+    color: #5b92ff;
+    width: 18px;
+    font-size: 18px;
+    margin: 0 16px 0 0;
+}
+
+.page-about-me.style-3 .intro-img {
+    height: 397px;
+    overflow: hidden;
+}
+
+.page-about-me.style-3 .page-subtitle {
+    text-align: center;
+}
+
+.row-content .three-col {
+    column-count: 3;
+    column-gap: 30px;
+}
+
+.social-icons a, 
+.social-icons a:hover, 
+.social-icons a:focus {
+    text-decoration: none;
+}
+
+.social-icons .icon-light .link-text {
+    color: #fff;
+}
+
+.social-icons .link-text {
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    clear: both;
+}
